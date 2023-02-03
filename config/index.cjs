@@ -25,7 +25,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oSgXn5k35HXu28-OJ-Q1qyiv3Mik',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'O6N3ngR10AtwgZUhO9Ltj7-hfEiiNQCjHS9wP4wXwAA',
+      useTemplateId: 'zVnniqDXRvUw7pyRieLAgLC7g68aeWOfWw_nzFuFnD4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '2-15',
       festivals: [
@@ -38,13 +38,23 @@ const USER_CONFIG = {
           type: '生日', name: '姜春旭', year: '2002', date: '02-15',
         },
       ],
+      天气：{{weather.DATA}}
+      
+      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向: {{wind_direction.DATA}}
+      
+      风级: {{wind_scale.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+
       FESTIVALS_LIMITT:3,
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'O6N3ngR10AtwgZUhO9Ltj7-hfEiiNQCjHS9wP4wXwAA',
+  CALLBACK_TEMPLATE_ID: 'zVnniqDXRvUw7pyRieLAgLC7g68aeWOfWw_nzFuFnD4',
 
   CALLBACK_USERS: [
     {
